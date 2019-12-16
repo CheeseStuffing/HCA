@@ -1,0 +1,229 @@
+#frontpage {
+	overflow-y: hidden;
+}
+
+#frontpage::before {
+	content: "";
+	background-image: url('../images/snow.png');
+	background-repeat: repeat;
+	background-size: 400px 400px;
+	background-position: 0 0;
+	opacity: 0.4;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	position: absolute;
+	z-index: -20; 
+}
+
+.intro {
+	display: block;
+	position: absolute;
+}
+.hca { 
+	bottom: 100px; 
+	right: 50%; 
+	z-index: 0;
+	opacity: 0;
+}
+.hca img { width: 600px; }
+.klodshans { 
+	bottom: 80px; 
+	right: 51%; 
+	transform: rotate(-3deg);
+	z-index: -1; 
+	opacity: 0;
+}
+.klodshans img { width: 250px; }
+.kejseren { 
+	bottom: 37px; 
+	right:70%; 
+	z-index: -1; 
+	transform: rotate(-13deg);
+	opacity: 0;
+}
+.kejseren img { width: 290px; }
+.havfrue { 
+	bottom: 100px; 
+	right: 6%; 
+	z-index: 1; 
+	opacity: 0;
+}
+.havfrue img { width: 300px; }
+.nattergal { 
+	bottom: 251px; 
+	right:45%; 
+	z-index: -2; 
+	opacity: 0;
+}
+.nattergal img { width: 250px; }
+.pigenmed { 
+	bottom: 330px; 
+	right:20%; 
+	z-index: -1; 
+	opacity: 0;
+}
+.pigenmed img { width: 300px; }
+.prinsessen {
+	bottom: 40px; 
+	right:38%; 
+	transform: rotate(-3deg);
+	z-index: -1; 
+	opacity: 0;
+}
+.prinsessen img { width: 350px; }
+.snedronning {
+	bottom: 250px; 
+	right:28.5%; 
+	z-index: -2; 
+	opacity: 0;
+}
+.snedronning img { width: 550px; }
+.tinsoldat { 
+	bottom: 265px; 
+	right: 69%; 
+	transform: rotate(-5deg);
+	z-index: -2; 
+	opacity: 0;
+}
+.tinsoldat img { width: 320px; }
+.uglyduckling { 
+	bottom: 456px; 
+	right: 47%; 
+	transform: rotate(-7deg);
+	z-index: -3; 
+	opacity: 0;
+}
+.uglyduckling img { width: 600px; }
+
+.introduction {
+	width: 300px; 
+	height: 400px;
+	padding: 10px 20px;
+	background-color: #eee; 
+	transform: skew(10deg) rotate(15deg);
+	position: absolute; 
+	right: 24%;
+	bottom: 200px;
+	line-height: 20px;
+	-webkit-filter: drop-shadow(5px 6px 10px rgba(0,0,0,0.6));
+	  filter: drop-shadow(5px 6px 10px rgba(0,0,0,0.6));
+	  border-right: 2px solid #9b1c31;
+}
+.introduction p, .introduction button, .introduction h1 {
+	position: relative; 
+	top: 35px;
+	left: 45px;
+	transform: skew(-10deg) rotate(-15deg);
+}
+.introduction p, .introduction h1 { width: 185px; margin: 0; padding: 0; }
+.introduction h1 { left: 36px; line-height: 35px; margin-bottom: 20px; margin-top: 10px; }
+.introduction button a { 
+	width: 90px;
+	height: 30px;
+	padding: 10px;
+	border: 0;
+	color: #fff;
+	font-weight: 700;
+	font-family: Barlow Condensed, sans-serif;
+	text-transform: uppercase;
+	font-size: 16px;
+	position: relative;
+    bottom: 1px;
+}
+.introduction button {
+	width: 100px;
+	height: 40px;
+	border: 0;
+	background-color: #9b1c31;
+	position: relative; 
+	top: 60px;
+	left: 90px;
+}
+
+.intro-p2 {
+	margin-top: 10px!important;
+	padding-left: 6px!important;
+}
+
+
+/* FOOTER */
+
+.frontpageFooter {
+	bottom: 0;
+}
+
+.frontpageFooter #footer {
+	width: 100%;
+	height: 100%;
+	position: absolute; 
+	bottom: 0;
+	top: 3px;
+}
+
+.frontpageFooter .cls-2 {
+	width: 100%;
+	fill: #9b1c31;
+}
+
+@media only screen and (max-width: 1080px) {
+    .intro {
+        display: none;
+    }
+    .introduction {
+    	width: 90%;
+    	height: auto;
+    	transform: unset;
+    	right: 0;
+    	bottom: 0;
+    	left: 0;
+    	display: flex; 
+    	flex-direction: column;
+    	justify-content: space-between;
+    	-webkit-filter: unset;
+	  	filter: unset;
+	  	padding: 25px 5%;
+	  	border-right: none;
+    }
+    .introduction p {
+    	width: 100%;
+    	position: unset;
+    	font-size: 22px;
+    	line-height: 26px;
+    	transform: unset;
+    }
+    .introduction button {
+    	width: 100%;
+    	position: unset;
+    	transform: unset;
+    	margin-top: 20px;
+    }
+    .introduction button a {
+    	font-size: 22px;
+    	line-height: 26px;
+    }
+    .introduction h1 {
+    	width: 100%;
+    	position: unset;
+    	font-size: 50px;
+    	transform: unset;
+    }
+    .intro-p2 { padding-left: 0!important; }
+
+    .prinsessen {
+    	display: block;
+    	bottom: 34px;
+    	right: 35%;
+	    animation-delay: 0s;
+    }
+    .prinsessen img {
+    	width: 321px;
+    }
+    .tinsoldat {
+    	display: block;
+	    bottom: 0px;
+    	left: 29%;
+	    animation-delay: .2s;
+    }
+}
