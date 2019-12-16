@@ -1,0 +1,12 @@
+<svg id="footer" data-name="footer" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 217" preserveAspectRatio="none">
+	<defs>
+	    <linearGradient id="footer-gradient">
+	      <stop offset="0" stop-color="#BF953F" />
+	      <stop offset="1" stop-color="#FCF6BA" />
+	      <stop offset="2" stop-color="#B38728" />
+	      <stop offset="3" stop-color="#FBF5B7" />
+	      <stop offset="4" stop-color="#AA771C" />
+	    </linearGradient>
+	  </defs>
+<polygon style="fill: #9b1c31;" points="1921.69 0.16 1443.31 132.55 509.58 12.2 0.19 218.8 1920.19 218.98 1921.69 0.16"/>
+</svg>

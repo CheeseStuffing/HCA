@@ -1,0 +1,43 @@
+@-webkit-keyframes fadeInUp {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 70%, 0);
+    transform: translate3d(0, 70%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 70%, 0);
+    transform: translate3d(0, 70%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.fadeInUp {
+  -webkit-animation: fadeInUp 1s cubic-bezier(.71,.55,.62,1.57) forwards;
+  animation: fadeInUp 1s cubic-bezier(.71,.55,.62,1.57) forwards;
+}
+
+.pigenmed { animation-delay: 0s }
+.kejseren { animation-delay: 0.5s }
+.prinsessen { animation-delay: 1s }
+.havfrue { animation-delay: 1.5s }
+.klodshans { animation-delay: 2s }
+.uglyduckling { animation-delay: 2.5s }
+.snedronning { animation-delay: 3s }
+.tinsoldat { animation-delay: 3.5s }
+.nattergal { animation-delay: 4s }
+.hca { animation-delay: 4.5s }
